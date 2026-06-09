@@ -120,7 +120,7 @@ pip install pandas numpy matplotlib scikitlearn openpyxl jupyter
 ### Run the Analysis
 bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/salestransactionanalysis.gi](https://github.com/Phantom-pyth/DecodeLabs-Internship.git
+git clone https://github.com/Phantom-pyth/DecodeLabs-Internship.git
 cd DecodeLabs-Internship
 
 # Run notebooks in order
