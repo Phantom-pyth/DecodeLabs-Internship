@@ -1,4 +1,4 @@
-# Sales Transaction Analysis — Decode Lab Internship
+# Sales Transaction Analysis Decode Lab Internship
 3week endtoend data analytics project covering data cleaning, exploratory analysis, business trend discovery, and machine learning prediction on a realworld sales dataset.
 
 ## Project Overview
