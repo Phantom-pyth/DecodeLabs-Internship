@@ -1,16 +1,19 @@
-# Sales Transaction Analysis Decode Lab Internship
+Sales Transaction Analysis Decode Lab Internship
 3week endtoend data analytics project covering data cleaning, exploratory analysis, business trend discovery, and machine learning prediction on a realworld sales dataset.
 
-## Project Overview
+Project Overview
 
 This project analyses 1,200 sales transaction records across 14 features using Python. Conducted over three weeks as part of the Decode Lab Data Analytics Internship, it progresses from raw data inspection through to a deployed Linear Regression model predicting order value with R² = 0.89.
 
-##  Repository Structure
+Repository Structure
 
-salestransactionanalysis/
-│
-Dataset_for_Data_Analytics.xlsx    # Original raw dataset
-├── Sales_Cleaned.csv                  # Cleaned & featureengineered dataset
+salestransactionanalysis
+
+
+Dataset_for_Data_Analytics.xlsx    Original raw dataset
+
+
+Sales_Cleaned.csv                 Cleaned & featureengineered dataset
 │
 ├── Decode_Lab_Week_1.ipynb            # Data loading, inspection & cleaning
 ├── Decode_Lab_Week_2.ipynb            # EDA, trends & visualisations
