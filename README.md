@@ -9,7 +9,7 @@ This project analyses 1,200 sales transaction records across 14 features using P
 
 salestransactionanalysis/
 │
-├── Dataset_for_Data_Analytics.xlsx    # Original raw dataset
+Dataset_for_Data_Analytics.xlsx    # Original raw dataset
 ├── Sales_Cleaned.csv                  # Cleaned & featureengineered dataset
 │
 ├── Decode_Lab_Week_1.ipynb            # Data loading, inspection & cleaning
