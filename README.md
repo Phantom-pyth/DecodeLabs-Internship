@@ -127,7 +127,11 @@ cd DecodeLabs-Internship
 
 # Run notebooks in order
 jupyter notebook Decode_Lab_Week_1.ipynb
+
+
 jupyter notebook Decode_Lab_Week_2.ipynb
+
+
 jupyter notebook Decode_Lab_Week_3.ipynb
 
 
