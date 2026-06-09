@@ -13,20 +13,20 @@ Dataset_for_Data_Analytics.xlsx    Original raw dataset
 Sales_Cleaned.csv                 Cleaned & featureengineered dataset
 
 
-Decode_Lab_Week_1.ipynb            # Data loading, inspection & cleaning
+Decode_Lab_Week_1.ipynb             Data loading, inspection & cleaning
 
 
-Decode_Lab_Week_2.ipynb            # EDA, trends & visualisations
+Decode_Lab_Week_2.ipynb             EDA, trends & visualisations
 
 
-Decode_Lab_Week_3.ipynb            # ML model, advanced analysis & insights
+Decode_Lab_Week_3.ipynb             ML model, advanced analysis & insights
 
 
 
-Sales_Insight_Report.docx          # Full insight summary report (all 3 weeks)
+Sales_Insight_Report.docx           Full insight summary report (all 3 weeks)
 
 
-README.md                          # This file
+README.md                           This file
 
 ## Dataset Description
 
@@ -65,21 +65,21 @@ TotalPrice	Numeric	Target
 
 
 ## Weekly Breakdown
-### Week 1 Data Loading, Inspection & Cleaning
+### Data Loading, Inspection & Cleaning
  Loaded dataset, inspected structure, identified missing values and types
  Imputed CouponCode nulls with "No Coupon" label (preserves all 1,200 rows)
  Converted Date to datetime; extracted Month, Year, Month_num
  IQRbased outlier detection 8 outliers identified and retained (legitimate bulk orders)
  Key finding: UnitPrice (r=0.72) and Quantity (r=0.62) are the dominant TotalPrice predictors
 
-### Week 2 xploratory Data Analysis & Business Trends
+### Exploratory Data Analysis & Business Trends
  Univariate analysis on all features; bar charts, pie charts, histograms
  Product revenue ranking, payment method distribution, referral source analysis
  Order status breakdown  identified 41.4% cancellation + return rate
  Coupon usage analysis  FREESHIP leads over discountbased codes
  Key finding: Chair and Printer dominate revenue; 41% loss rate is the #1 business risk
 
-### Week 3 — Machine Learning & Advanced Analysis
+### Machine Learning & Advanced Analysis
  Linear Regression model: Quantity, UnitPrice, ItemsInCart → TotalPrice
  R² = 0.89  MAE = £211.53 productiongrade accuracy
  Monthly revenue trend analysis  volatile, no clear seasonality
